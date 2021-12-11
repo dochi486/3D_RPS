@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539c0c3e276aacb4696fdd6698639ce6, type: 3}
+  m_Name: Challenge
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excel/ChallengeDB.xlsx
+  WorksheetName: Challenge
+  dataArray:
+  - id: 1
+    title: "\uD29C\uD1A0\uB9AC\uC5BC NPC \uCC3E\uAE30"
+    condition: "\uBAA8\uB4E0 \uD29C\uD1A0\uB9AC\uC5BC NPC\uC640 \uB300\uD654\uD558\uAE30"
+    reward: 1.5
+    goalcount: 3
+    rewardtype: 0
+  - id: 2
+    title: "\uD06C\uB9AC\uC2A4\uD0C8 \uBAA8\uB450 \uCC3E\uAE30"
+    condition: "\uBAA8\uB4E0 \uD06C\uB9AC\uC2A4\uD0C8\uACFC \uC0C1\uD638\uC791\uC6A9\uD558\uAE30"
+    reward: 2
+    goalcount: 5
+    rewardtype: 1
+  - id: 3
+    title: "\uD0C4\uC57D \uBCF4\uCDA9"
+    condition: "\uAD8C\uCD1D \uD0C4\uC57D 100\uAC1C \uBAA8\uC73C\uAE30"
+    reward: 0.5
+    goalcount: 100
+    rewardtype: 0
+  - id: 4
+    title: 
+    condition: 
+    reward: 0
+    goalcount: 0
+    rewardtype: 0

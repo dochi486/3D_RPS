@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74854352c45e95a45a47de947c189625, type: 3}
+  m_Name: itemSQL
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excel/ItemMySql.xlsx
+  WorksheetName: itemSQL
+  dataArray:
+  - id: 1
+    name: Pistol
+    damage: 12.5
+    accuracy: 68
+    firerate: 12
+    reloadspeed: 4.2
+    magazinesize: 18
+    price: 100
+    weapontype: 0
+    itemtype: 0
+  - id: 2
+    name: Rifle
+    damage: 8
+    accuracy: 89
+    firerate: 25
+    reloadspeed: 12
+    magazinesize: 8
+    price: 200
+    weapontype: 1
+    itemtype: 0
+  - id: 3
+    name: Rifle3
+    damage: 35
+    accuracy: 73
+    firerate: 9
+    reloadspeed: 18
+    magazinesize: 10
+    price: 300
+    weapontype: 1
+    itemtype: 0
+  - id: 4
+    name: Pistol2
+    damage: 29
+    accuracy: 62
+    firerate: 14
+    reloadspeed: 4
+    magazinesize: 14
+    price: 400
+    weapontype: 0
+    itemtype: 0
+  - id: 5
+    name: SMG
+    damage: 49.8
+    accuracy: 58
+    firerate: 5.9
+    reloadspeed: 5.8
+    magazinesize: 120
+    price: 300
+    weapontype: 2
+    itemtype: 0
+  - id: 6
+    name: Shotgun
+    damage: 85.7
+    accuracy: 70
+    firerate: 7.5
+    reloadspeed: 8
+    magazinesize: 12
+    price: 250
+    weapontype: 3
+    itemtype: 0
+  - id: 7
+    name: Shotgun2
+    damage: 23
+    accuracy: 56
+    firerate: 18.6
+    reloadspeed: 6.4
+    magazinesize: 12
+    price: 1420
+    weapontype: 3
+    itemtype: 0
+  - id: 8
+    name: SMG2
+    damage: 16
+    accuracy: 89
+    firerate: 21.3
+    reloadspeed: 4.8
+    magazinesize: 80
+    price: 650
+    weapontype: 2
+    itemtype: 0
+  - id: 9
+    name: Rifle2
+    damage: 97
+    accuracy: 64
+    firerate: 3
+    reloadspeed: 9
+    magazinesize: 6
+    price: 7980
+    weapontype: 1
+    itemtype: 0
+  - id: 10
+    name: j
+    damage: 456
+    accuracy: 51
+    firerate: 12
+    reloadspeed: 4.2
+    magazinesize: 18
+    price: 100
+    weapontype: 0
+    itemtype: 0
+  - id: 11
+    name: k
+    damage: 216
+    accuracy: 52
+    firerate: 25
+    reloadspeed: 12
+    magazinesize: 8
+    price: 200
+    weapontype: 1
+    itemtype: 0
+  - id: 12
+    name: l
+    damage: 65413
+    accuracy: 53
+    firerate: 9
+    reloadspeed: 18
+    magazinesize: 10
+    price: 300
+    weapontype: 1
+    itemtype: 0
+  - id: 13
+    name: m
+    damage: 782
+    accuracy: 54
+    firerate: 14
+    reloadspeed: 4
+    magazinesize: 14
+    price: 400
+    weapontype: 0
+    itemtype: 0
+  - id: 14
+    name: n
+    damage: 1586
+    accuracy: 55
+    firerate: 5.9
+    reloadspeed: 5.8
+    magazinesize: 120
+    price: 300
+    weapontype: 2
+    itemtype: 0
+  - id: 15
+    name: o
+    damage: 4568
+    accuracy: 56
+    firerate: 7.5
+    reloadspeed: 8
+    magazinesize: 12
+    price: 250
+    weapontype: 3
+    itemtype: 0
+  - id: 16
+    name: p
+    damage: 2125
+    accuracy: 57
+    firerate: 18.6
+    reloadspeed: 6.4
+    magazinesize: 12
+    price: 1420
+    weapontype: 3
+    itemtype: 0
+  - id: 17
+    name: q
+    damage: 15456
+    accuracy: 58
+    firerate: 21.3
+    reloadspeed: 4.8
+    magazinesize: 80
+    price: 650
+    weapontype: 2
+    itemtype: 0
+  - id: 18
+    name: r
+    damage: 8762
+    accuracy: 59
+    firerate: 3
+    reloadspeed: 9
+    magazinesize: 6
+    price: 7980
+    weapontype: 1
+    itemtype: 0
+  - id: 19
+    name: s
+    damage: 6552
+    accuracy: 60
+    firerate: 21.3
+    reloadspeed: 4.8
+    magazinesize: 80
+    price: 650
+    weapontype: 3
+    itemtype: 0
+  - id: 20
+    name: t
+    damage: 4874
+    accuracy: 61
+    firerate: 3
+    reloadspeed: 9
+    magazinesize: 6
+    price: 650
+    weapontype: 2
+    itemtype: 0
