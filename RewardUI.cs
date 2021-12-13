@@ -39,41 +39,11 @@ public class RewardUI : SingletonMonoBehaviour<RewardUI>
                 moneyBoxes[i].SetActive(false);
             }
         }
-
-
-        //if (rewardMoney >= 1000)
-        //{
-        //    moneyBox.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(0, 1);
-        //    moneyBox1.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(1, 1);
-        //    moneyBox2.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(2, 1);
-        //    moneyBox3.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(3, 1);
-        //}
-        //else if (rewardMoney >= 100 && rewardMoney < 1000)
-        //{
-        //    moneyBox.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(0, 1);
-        //    moneyBox1.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(1, 1);
-        //    moneyBox2.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(2, 1);
-        //    moneyBox3.SetActive(false);
-        //}
-        //else if (rewardMoney >= 10 && rewardMoney < 100)
-        //{
-        //    moneyBox.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(0, 1);
-        //    moneyBox1.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(1, 1);
-        //    moneyBox2.SetActive(false);
-        //    moneyBox3.SetActive(false);
-        //}
-        //else if (rewardMoney >= 0 && rewardMoney < 10)
-        //{
-        //    moneyBox.GetComponentInChildren<Text>().text = rewardMoney.ToString().Substring(0, 1);
-        //    moneyBox1.SetActive(false);
-        //    moneyBox2.SetActive(false);
-        //    moneyBox3.SetActive(false);
-        //}
     }
 
     public string QuestTypeConvert(QuestType type)
     {
-        string result = "";
+        string result = string.Empty;
         switch (type)
         {
             case QuestType.Story:

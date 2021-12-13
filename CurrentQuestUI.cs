@@ -24,9 +24,9 @@ public class CurrentQuestUI : SingletonMonoBehaviour<CurrentQuestUI>
 
     internal void ShowSelectedQuest(QuestData quest)
     {
-        questTitle.text = "";
+        questTitle.text = string.Empty;
         questTitle.text = quest.Title;
-        questObject.text = "";
+        questObject.text = string.Empty;
         questObject.text = quest.Requirement;
     }
 
